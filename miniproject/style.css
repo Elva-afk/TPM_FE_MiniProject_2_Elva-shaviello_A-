@@ -1,0 +1,98 @@
+body{
+    background-color: #EDEDF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.skill-section {
+    width: 500px;
+    margin:auto;
+    border-radius: 10px;
+    background-color: white;
+    position:relative;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px black;
+  }
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8484A7;
+    line-height: 200%;
+    margin: 0;
+    padding: 0;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+  
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #EDEDF9;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #000000;
+}
+  
+#search-button {
+    background-color: #523FFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+#search-button:hover {
+    background-color: #6858f4;
+}
+  
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #EDEDF9;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #000000;
+    border: 1px solid #EDEDF9;
+}
+  
+.skill-tag .remove-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.skill-tag .remove-btn:hover{
+    color: red;
+}
+.line{
+    margin-top: 20px;
+    margin-bottom: 30px ;
+}
+  
+  
